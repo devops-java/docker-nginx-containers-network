@@ -2,6 +2,8 @@
 
 Containers Communication In A Network
 -------------------------------------
+Two containers can communicate with each other when they are in same network. Below are the steps to achieve the communication between containers in a network.
+
 1. Create and View network.
 2. Create nginx image.
 3. Run the image created in step 2 as container mynginx1 with user defined network created in step 1.
