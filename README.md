@@ -1,6 +1,6 @@
 # docker-nginx-containers-network
 
-Containers Communication In a Network
+Containers Communication In A Network
 -------------------------------------
 1. Create and View network.
 2. Create nginx image.
