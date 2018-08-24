@@ -17,3 +17,24 @@ Containers Communication In A Network
     * Remove the images.
     * Remove the network.
     
+Create and View network
+-----------------------
+* create: `sudo docker network create --driver bridge my_nw`
+* view: `sudo docker network ls`
+
+![image](https://user-images.githubusercontent.com/17001948/44581949-6df17b80-a7bd-11e8-84a1-d8b0ce469595.png)
+
+Create Nginx Image
+------------------
+* Download this repository. Go to the repostiroy directory. Open the terminal.
+* create image: `sudo docker build -t my-nginx-image .`
+![image](https://user-images.githubusercontent.com/17001948/44582806-62538400-a7c0-11e8-899e-a253e9d2e246.png)
+You will see below screen while running the above command.
+![image](https://user-images.githubusercontent.com/17001948/44582827-7bf4cb80-a7c0-11e8-9d48-43f3f33c6cc8.png)
+Imgae create successfully
+![image](https://user-images.githubusercontent.com/17001948/44582856-99c23080-a7c0-11e8-9cc5-979fe96b9691.png)
+
+* view: `sudo docker images`
+![image](https://user-images.githubusercontent.com/17001948/44582903-bc544980-a7c0-11e8-92ec-6a4706e214a1.png)
+
+
