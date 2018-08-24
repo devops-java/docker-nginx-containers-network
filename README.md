@@ -12,3 +12,8 @@ Containers Communication In A Network
     * Access it using curl.
 5. Go into the container mynginx1. Ping to the mynginx2. 
 6. Go into the container mynginx2. Ping to the mynginx1.
+7. Remove resources.
+    * Stop the both of the containers.
+    * Remove the images.
+    * Remove the network.
+    
